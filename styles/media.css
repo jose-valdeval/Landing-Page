@@ -1,0 +1,63 @@
+@media screen and (max-width: 768px){
+	header{
+		flex-direction: column;
+	}
+	.menu{
+		display: block;
+	}
+	ul{
+		display: none;
+		width: 75%;
+		height: 100vh;
+		padding-top: 130px;
+		background-color: #222;
+		position: absolute;
+		top: 0;
+		left: 0;
+		box-shadow: 0 0 50px black;
+	}
+	li{
+		margin: 10px 0;
+		padding: 0;
+		display: block;
+		width: 100%;
+	}
+	a{
+		display: block;
+		width: 100%;
+		padding: 20px 0 20px 70px;
+	}
+	.btn-login{
+		background-color: #840ec9;
+		border: none;
+		margin: 30px 0;
+		padding: 20px 0 20px 70px;
+	}
+	main{
+		flex-direction: column;
+		text-align: center;
+	}
+	h2{
+		font-size: 38px;
+	}
+	p{
+		max-width: 90%;
+		margin: 50px auto;
+	}
+	form{
+		margin: 80px auto 0;
+		width: 100%;
+	}
+	input, form [type="submit"]{
+		align-self: center;
+		width: 75%;
+	}
+	.image{
+		margin: 0;
+		padding: 0;
+		width: 93%;
+		position: absolute;
+		z-index: -1;
+		opacity: 0.2;
+	}
+}
