@@ -26,19 +26,8 @@ h1{
 	line-height: 35px;
 	font-weight: 200;
 }
-.menu{
+nav #btn-menu, nav label{
 	display: none;
-	padding: 10px;
-	border-radius: 15px;
-	position: absolute;
-	top: 50px;
-	left: 50px;
-	cursor: pointer;
-	z-index: 1;
-}
-.menu:hover{
-	background-color: #4e5bb9;
-	opacity: 0.5;
 }
 li{
 	display: inline-block;
@@ -116,8 +105,7 @@ img{
 /*						footer						*/
 
 footer{
-	position: absolute;
-	left: 75%;
+	margin: 20px 0 0 70%;
 }
 footer > a{
 	color: #4e5bb9;
