@@ -90,6 +90,9 @@ form [type="submit"]{
 	font-weight: 700;
 	cursor: pointer;
 }
+form [type="submit"]:active{
+	background-color: #272e66;
+}
 input{
 	background-color: #bcccff;
 	margin-top: 20px;
